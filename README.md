@@ -1,1 +1,2 @@
 # MotionCut-Internship
+## Rohit Wagh
