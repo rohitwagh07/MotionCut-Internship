@@ -1,0 +1,134 @@
+/* Custom CSS file */
+body{
+
+    overflow-x: hidden;
+}
+/* Variables for colors */
+:root {
+    --primary-color: #deaee8;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #b8179b;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
+/* Header section */
+.header {
+    background-color: var(--primary-color);
+    padding: 5px;
+}
+
+.logo {
+    width: 460px;
+}
+
+/* Main section */
+.main {
+    padding: 40px;
+}
+
+.watch {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.currency {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.amount {
+    font-size: 36px;
+}
+
+.period {
+    font-size: 24px;
+    vertical-align: bottom;
+}
+
+.features {
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.options .form-group {
+    margin-bottom: 10px;
+}
+
+.action {
+    margin-bottom: 20px;
+}
+
+/* Footer section */
+.footer {
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.copy {
+    color: var(--white-color);
+    font-size: 14px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 24px;
+    }
+
+    .currency {
+        font-size: 18px;
+    }
+
+    .amount {
+        font-size: 24px;
+    }
+
+    .period {
+        font-size: 18px;
+    }
+}
