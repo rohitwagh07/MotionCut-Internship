@@ -1,37 +1,37 @@
-# Week 1 Task of creating Pricing Landing Page
+# Week 2 Task of creating Registration Form Webpage
 
-# Pricing Page Design Choices
+## Creating a Registration Form 
 
-## Overall Design and Layout
+![Registration Form Screenshot](https://github.com/AmanKadam-16/MotionCut_Internship/blob/Week_2/SnapShot.jpg)
 
-I chose to use Bootstrap for the overall design and layout to make the page responsive easily across devices. Key choices:
+## Design Choices
 
-- Container and rows for layout using Bootstrap grid system 
-- Header, main, and footer sections for clean separation
-- Image on left and details on right in main section for visual appeal
+I wanted to create an aesthetically pleasing registration form with a stylish glassmorphism design. Here were some of my key design choices:
+
+* Used a full background image with the form centered on top to create an immersive experience
+* Styled the form with glassmorphism using semi-transparent whites and blurred backdrop filters to give a slick look
+* Made the form glow subtly against the background using box shadows and borders
+* Used clean sans-serif fonts and gave elements bolding and coloring for good information hierarchy
 
 ## Features
 
-Key features added:
+In terms of functionality, I included some standard registration form features:
 
-- Dynamic pricing based on plan, currency etc using JS
-- Image change on color option select using JS
-- Unit changes on unit system select using JS
-- Clean unordered list for feature highlights  
-- Select boxes for options to pick plan, color etc
+* :fontawesome-solid-user: Username field 
+* :fontawesome-solid-envelope: Email field
+* :fontawesome-solid-lock: Password field
+* :fontawesome-solid-check: Submit button
 
-These features enhance user experience and interaction.
+I made sure to:
 
-## Challenges 
+* Use appropriate input types like email and password 
+* Add the `required` attribute for validation
+* Give inputs placeholder text as hints for users
 
-Some challenges faced:
+## Challenges
 
-- Getting price update logic with currency exchange rates right 
-- Updating image source correctly on select change
-- Ensuring responsiveness across devices
+Some challenges I ran into:
 
-Solved these by:
-
-- Carefully working through different scenarios like how will it look on mobile devices.
-- Using a switch statement to pick image name
-- Adding media queries based on Bootstrap
+* Getting the glassmorphism styling right - took some tweaking with transparencies  
+* Centering the form perfectly on all screen sizes - flexbox saved the day
+* Restricting the background image from scrolling - used `height: 100vh`
